@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/mEstrella"
+        android:icon="@drawable/ic_estrella"
+        android:title="ESTRELLA"
+        app:showAsAction="ifRoom">
+    </item>
+
+    <item
+        android:id="@+id/mContacto"
+        android:title="@string/menu_Contacto"
+        android:orderInCategory="10">
+    </item>
+
+    <item
+        android:id="@+id/mAbout"
+        android:title="@string/menu_about"
+        android:orderInCategory="11">
+    </item>
+
+</menu>
